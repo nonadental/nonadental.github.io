@@ -28,7 +28,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
@@ -65,7 +69,7 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                  </button>
-	                  <a class="navbar-brand" href="#"><img src="images/NonaDenistryLogo.png" alt=""></a>
+	                  <a class="navbar-brand" href="#"><img src="images/logo_head.png" alt="" style="margin-top: -8px;"></a>
 	                </div>
 
 	                <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,33 +86,18 @@
 	              </div><!-- /.container -->
 	            </nav>
 
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-md-12 text-center">
-	                        <div class="home_text wow fadeInUp animated">
-	                            <h2>General, Cosmetic and Implant Denistry</h2>
-                              <div class="col-md-12 wow fadeInRight animated">
-                                  <div class="baton">
-                                    <a href="#CONTACT">
-                                        <button type="button" class="btn btn-primary cs-btn">Schedule a Consultation</button>
-                                    </a>
-                                  </div>
-                              </div>
-	                            <!-- <img src="images/shape.png" alt=""> -->
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-md-12 text-center">
-	                        <div class="scroll_down">
-                            <a href="#SERVICE"><img src="images/shape.png" alt=""></a>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
+	       <div class="container">
+	          <div class="row">
+             <div class="col-md-12 text-center">
+              <div class="home_text wow fadeInUp animated text-center">
+                <h2>General, Cosmetic and Implant Denistry</h2>
+                <a href="#CONTACT">
+                    <!--Added a 12px Right Margin for Centering of Button-->
+                    <button type="button" class="btn btn-primary cs-btn" style="margin-right: 12px">Schedule a Consultation</button>
+                </a>
+              </div>
+             </div>
+            </div>
 	        </div>
 	    </section>
     </header>
@@ -138,6 +127,8 @@
                         <p>Tooth Colored Fillings, Crowns, and Bridges</p>
                     </div>
                 </div>
+              </div>
+              <div class="row">
                 <div class="col-md-4 text-center">
                     <div class="single_service wow fadeInUp" data-wow-delay="1s">
                         <i class="icon-magnifying-glass"></i>
@@ -158,7 +149,7 @@
                         <h2>Oral Surgery</h2>
                         <p>Extraction of Non-Restorable Teeth and Third Molars</p>
                     </div>
-                </div>
+              </div>
             </div>
         </div>
     </section>
@@ -169,7 +160,8 @@
                   <div class="row">
                       <div class="col-md-6 wow fadeInLeft animated">
                           <div class="row">
-                              <!-- <div class="col-md-4">
+                              <!--
+                              <div class="col-md-4">
                                   <div class="single_count">
                                       <i class="icon-toolbox"></i>
                                       <h3>300</h3>
@@ -179,17 +171,19 @@
                               <div class="col-md-4">
                                   <div class="single_count">
                                       <i class="icon-camera"></i>
-                                      <h3></h3>
-                                      <p>Advanced Dental Imaging with In-Office Cone Beam CT Scanner (CBCT)</p>
+                                      <h3>CBCT</h3>
+                                      <p>Advanced Dental Imaging with In-Office Cone Beam CT Scanner</p>
                                   </div>
                               </div>
-                              <!--<div class="col-md-4">
+                              <!--
+                              <div class="col-md-4">
                                   <div class="single_count">
                                       <i class="icon-trophy"></i>
                                       <h3>37</h3>
                                       <p>Awards Won</p>
                                   </div>
-                              </div> -->
+                              </div>
+                              -->
                           </div>
                       </div>
                       <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
@@ -340,19 +334,6 @@
             </div>
         </div>
     </section>
-    <section class="call_to_action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 wow fadeInLeft animated">
-                    <!-- <div class="left">
-                        <h2>WE LOOK FORWARD TO ASSISTING YOU WITH YOUR DENISTRY NEEDS</h2>
-                        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.
-                        Integer non dapibus diam, ac eleifend lectus.</p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="contact" id="CONTACT">
         <div class="container">
             <div class="row">
@@ -360,49 +341,43 @@
                     <div class="contact_title  wow fadeInUp animated">
                         <h1>CONTACT</h1>
                         <img src="images/shape.png" alt="">
-                        <h2>Basil E. Nona, D.D.S.</h2>
-                        <h2>Matthew D. Nona, D.D.S.</h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-3  wow fadeInLeft animated">
-                    <div class="single_contact_info">
-                        <h2>Call</h2>
-                        <p>(248) 851 - 9060</p>
-                    </div>
-                    <div class="single_contact_info">
-                        <h2>Fax</h2>
-                        <p>(248) 851 - 9070</p>
-                    </div>
-                    <div class="single_contact_info">
-                        <h2>Email</h2>
-                        <p>nonadensitry@gmail.com</p>
-                    </div>
+              <div class="col-md-4  wow fadeInLeft animated">
+                  <div class="single_contact_info">
+                      <h2>Call</h2>
+                      <p>(248) 851 - 9060</p>
+                  </div>
+                  <div class="single_contact_info">
+                      <h2>Fax</h2>
+                      <p>(248) 851 - 9070</p>
+                  </div>
+                  <div class="single_contact_info">
+                      <h2>Email</h2>
+                      <p>nonadensitry@gmail.com</p>
+                  </div>
+                </div>
+                  <div class="col-md-4  wow fadeInLeft animated">
                     <div class="single_contact_info">
                         <h2>Address</h2>
                         <p>Parkview Office Building</p>
                         <p>30411 W 13 Mile Rd</p>
                         <p>Farmington Hills, MI 48334</p>
                     </div>
-                </div>
-                <div class="col-md-9  wow fadeInRight animated">
-                    <form class="contact-form" action="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="First Name">
-                                <input type="text" class="form-control" id="name" placeholder="Last Name">
-                                <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                            </div>
-                            <div class="col-md-6">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  How can we assist you today?"></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
-                            </div>
-                        </div>
-                    </form>
+                  </div>
+                  <div class="col-md-4  wow fadeInLeft animated">
+                    <div class="single_contact_info" style="">
+                        <h2>Hours</h2>
+                        <p>Mon - Wed: Input</p>
+                        <p>Thurs: Closed</p>
+                        <p>Fri: Input</p>
+                        <p>Sat. & Sun.: Closed</p>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -423,19 +398,19 @@
 <footer>
     <div class="container">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="footer_logo   wow fadeInUp animated">
+            <div class="row" style="padding-bottom: 35px;">
+              <div class="col-md-3 text-center">
+              </div>
+                <div class="col-md-3 text-center">
+                    <!--<div class="footer_logo   wow fadeInUp animated">
                         <img src="images/NonaDenistryLogo.png" alt="">
-                    </div>
-                    <div class="footer_logo   wow fadeInUp animated">
+                    </div>-->
                         <img src="images/Hourtopdentists.png" alt="">
-                    </div>
-                    <p> <p>
-                    <p> <p>
-                    <div class="footer_logo   wow fadeInUp animated">
+                </div>
+                <div class="col-md-3 text-center">
                         <img src="images/MDAlogo.png" alt="">
-                    </div>
+                </div>
+                <div class="col-md-3 text-center">
                 </div>
             </div>
         </div>
@@ -458,10 +433,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="copyright_text   wow fadeInUp animated">
-                        <p>&copy; NONA DENISTRY 2021</p>
-                        <p>Rights Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
-                    </div>
+                    <p>&copy; Basil E Nona DDS 2021</p>
+                    <p>Original Template by <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
                 </div>
             </div>
         </div>
