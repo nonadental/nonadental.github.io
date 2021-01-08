@@ -333,7 +333,7 @@ text-transform: uppercase;
 /*Contact*/
 
 .single_contact_info{
-padding-bottom: 21px;
+padding-bottom: 8px;
 }
 .single_contact_info h2{
 text-transform: uppercase;
@@ -391,7 +391,7 @@ padding-top: 10px;
 footer{
 	background-color: #f1f1f1;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 .footer_logo{}
 .footer_logo img{}
